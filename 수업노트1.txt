@@ -10,3 +10,7 @@ local 프로젝트 저장 공간 생성 및 코딩 파일 생성
 
 내용 되돌리기!
 commit 직전: git commit --amend (버전정보0)
+
+pull: fetch + merge
+fetch: 불러오기
+merge: 합치기
