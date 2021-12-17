@@ -1,2 +1,5 @@
 원격 코딩 저장소: repository 생성
 local 프로젝트 저장 공간 생성 및 코딩 파일 생성
+원격 저장소 연결 방법
+- 파일 저장 후 직접 github.com에 올린다
+- local file 생성 후 commit 버튼 누른다. 그리고 해당 local branch를 publish branch(named 'origin')함!
