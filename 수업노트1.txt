@@ -41,3 +41,8 @@ terminal에 git log --oneline --all --graph 입력
 * 05fdd88 (HEAD -> master, origin/master, origin/HEAD) 5번째 단위작업
 3) head는 워킹 디렉토리가 어떤 버전인지 가리킴
 4) main은 마지막으로 작업한 게 무엇인지 가리킴
+
+merge
+main + branch = new main
+branch > main = main(으로 표기) #실험 끝난 뒤 딱 한 번 병합함
+main > branch = branch(으로 표기) # 실험 ing exp에 한 작업은 main에 필요한 것이니 미리 exp로 업데이트 하는 개념
