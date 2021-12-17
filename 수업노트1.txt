@@ -27,3 +27,7 @@ git config --global user.email "egoing@gmail.com"
 origin: 원격저장소 의미
 -origin/main: 원격저장소에서 가장 마지막 버전
 main: 로컬에서 가장 마지막 버전
+
+*branch 작업하기
+우클릭 - making branch!
+main에서 작업합니당!
