@@ -29,4 +29,15 @@ origin: 원격저장소 의미
 main: 로컬에서 가장 마지막 버전
 
 *branch 작업하기
-우클릭 - making branch!
+우클릭 - making branch! - merge in to current branch
+*checkout 하기: 시간여행 이전버전으로 되돌릴 수 있음.
+main/origin으로 head 설정 필수! 
+-> 로그를 통해 더 자세히 볼 수 있다.
+
+terminal에 git log --oneline --all --graph 입력
+1) head가 master를 향해있지 않을 때 : head-> message 5
+05fdd88 (HEAD, origin/master, origin/HEAD, master) 5번째 단위작업 
+2) head가 master를 향할 때: head -> main -> message 5
+* 05fdd88 (HEAD -> master, origin/master, origin/HEAD) 5번째 단위작업
+3) head는 워킹 디렉토리가 어떤 버전인지 가리킴
+4) main은 마지막으로 작업한 게 무엇인지 가리킴
