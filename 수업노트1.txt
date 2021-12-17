@@ -14,3 +14,38 @@ commit 직전: git commit --amend (버전정보0)
 pull: fetch + merge
 fetch: 불러오기
 merge: 합치기
+원격저장소 clone 방법
+1. source ctr(버전관리 기능 하는 것) - clone repository - 원격저장소 입력
+
+* file preference settings exclude : 특정한 파일 숨기기
+
+'Parent' of git graph: a previous version of new version
+
+새로운 원격 저장소에서 처음 git 커밋 할 때 
+git config --global user.name "egoing"
+git config --global user.email "egoing@gmail.com"
+
+와 같이 새로운 버전 만들 때 정보 입력해.
+
+origin: 원격저장소 의미
+-origin/main: 원격저장소에서 가장 마지막 버전
+main: 로컬에서 가장 마지막 버전
+
+*branch 작업하기
+우클릭 - making branch! - merge in to current branch
+*checkout 하기: 시간여행 이전버전으로 되돌릴 수 있음.
+main/origin으로 head 설정 필수! 
+-> 로그를 통해 더 자세히 볼 수 있다.
+
+terminal에 git log --oneline --all --graph 입력
+1) head가 master를 향해있지 않을 때 : head-> message 5
+05fdd88 (HEAD, origin/master, origin/HEAD, master) 5번째 단위작업 
+2) head가 master를 향할 때: head -> main -> message 5
+* 05fdd88 (HEAD -> master, origin/master, origin/HEAD) 5번째 단위작업
+3) head는 워킹 디렉토리가 어떤 버전인지 가리킴
+4) main은 마지막으로 작업한 게 무엇인지 가리킴
+
+merge
+main + branch = new main
+branch > main = main(으로 표기) #실험 끝난 뒤 딱 한 번 병합함
+main > branch = branch(으로 표기) # 실험 ing exp에 한 작업은 main에 필요한 것이니 미리 exp로 업데이트 하는 개념
