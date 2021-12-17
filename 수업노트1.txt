@@ -15,3 +15,15 @@ commit 직전: git commit --amend (버전정보0)
 1. source ctr(버전관리 기능 하는 것) - clone repository - 원격저장소 입력
 
 * file preference settings exclude : 특정한 파일 숨기기
+
+'Parent' of git graph: a previous version of new version
+
+새로운 원격 저장소에서 처음 git 커밋 할 때 
+git config --global user.name "egoing"
+git config --global user.email "egoing@gmail.com"
+
+와 같이 새로운 버전 만들 때 정보 입력해.
+
+origin: 원격저장소 의미
+-origin/main: 원격저장소에서 가장 마지막 버전
+main: 로컬에서 가장 마지막 버전
