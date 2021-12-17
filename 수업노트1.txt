@@ -27,3 +27,13 @@ git config --global user.email "egoing@gmail.com"
 origin: 원격저장소 의미
 -origin/main: 원격저장소에서 가장 마지막 버전
 main: 로컬에서 가장 마지막 버전
+
+*checkout 하기: 시간여행 이전버전으로 되돌릴 수 있음.
+main/origin으로 head 설정 필수! 
+-> 로그를 통해 더 자세히 볼 수 있다.
+
+terminal에 git log --oneline --all --graph 입력
+1) head가 master를 향해있지 않을 때
+05fdd88 (HEAD, origin/master, origin/HEAD, master) 5번째 단위작업
+2) head가 master를 향할 때
+* 05fdd88 (HEAD -> master, origin/master, origin/HEAD) 5번째 단위작업
