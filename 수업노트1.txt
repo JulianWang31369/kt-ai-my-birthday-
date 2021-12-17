@@ -31,3 +31,4 @@ main: 로컬에서 가장 마지막 버전
 *branch 작업하기
 우클릭 - making branch!
 main에서 작업합니당!
+main2
