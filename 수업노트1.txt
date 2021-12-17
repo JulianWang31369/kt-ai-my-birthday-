@@ -10,3 +10,8 @@ local 프로젝트 저장 공간 생성 및 코딩 파일 생성
 
 내용 되돌리기!
 commit 직전: git commit --amend (버전정보0)
+
+원격저장소 clone 방법
+1. source ctr(버전관리 기능 하는 것) - clone repository - 원격저장소 입력
+
+* file preference settings exclude : 특정한 파일 숨기기
